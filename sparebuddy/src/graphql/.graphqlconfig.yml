@@ -1,0 +1,15 @@
+projects:
+  sparebuddy:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - ''
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
+        region: us-east-1
+        apiId: mscrpmlsonhxlpijhenvzjnfey
+        maxDepth: 2
